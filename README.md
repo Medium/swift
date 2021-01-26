@@ -757,7 +757,7 @@ _You can enable the following settings in Xcode by running [this script](resourc
 
   ```swift
   // WRONG
-  func age(of person, bornAt timeInterval) -> Int {
+  func age(of person: Person, bornAt: TimeInterval) -> Int {
     // ...
   }
 
